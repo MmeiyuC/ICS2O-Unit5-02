@@ -1,3 +1,5 @@
-document.getElementById("btn").addEventListener("click", function() {
-  alert("Hello, World!");
-});
+document.getElementById('btn').addEventListener('click', displayMessage)
+
+function displayMessage () {
+  alert("Hello, World!")
+}
